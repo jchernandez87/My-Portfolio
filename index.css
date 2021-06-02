@@ -5,6 +5,50 @@
 
 .header {
     background-color: #3C3A39;
+		height: 72px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+}
+
+.toolBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 85%;
+}
+
+.logo {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.nav {
+	width: 300px;
+}
+
+.nav ul {
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+}
+
+.hourInfo {
+	display: none;
+}
+
+.menu {
+	display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -21,7 +65,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-
+		width: 100%;
 	}
 
 	.hour {
@@ -39,7 +83,6 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		
 	}
 
 	.battery i {
@@ -51,12 +94,14 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+		width: 100%;
 	}
 
 	.logo {
 		color: white;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 700;
+		font-size: 18px;
 	}
 
 	.menu {
@@ -71,5 +116,9 @@
 		background-color: transparent;
 		text-decoration: none;
 		border: none;
+	}
+
+	.nav {
+		display: none;
 	}
 }
