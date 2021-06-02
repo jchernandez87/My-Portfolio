@@ -51,6 +51,61 @@
 	display: none;
 }
 
+.headLine {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
+	height: 590px;
+	background-color: #1C1A19;
+	padding: 0 25px 15px 25px;
+	background-image: url(/assets/img/Illustration-header.png);
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-size: contain;
+}
+
+
+.title h1 {
+	color: #FF6B00;
+	font-family: 'Crete Round', serif;
+	font-weight: 400;
+	font-size: 56px;
+	letter-spacing: 0.37px;
+	line-height: 64px;
+	margin-bottom: 15px;
+}
+
+.title span {
+	color: #FFF5E1;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.title p {
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+.iconLinks {
+	height: 35%;
+	color: #DBD8D7;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 25px;
+	margin-right: 60px;
+}
+
 @media only screen and (max-width: 600px) {
 	.header {
 		height: 92px;
@@ -130,6 +185,17 @@
 		height: 590px;
 		background-color: #1C1A19;
 		padding: 0 25px 15px 25px;
+		background-position-x: 185px;
+		background-position-y: 235px;
+		background-size: contain;
+	}
+
+	.title {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: flex-start;
 	}
 
 	.title h1 {
@@ -157,16 +223,48 @@
 		font-size: 16px;
 		line-height: 26px;
 		margin-top: 15px;
-		margin-bottom: 30px;
+		margin-bottom: 35px;
 		padding-right: 10px;
+		width: 100%;
 	}
 
 	.iconLinks {
 		width: 60%;
+		height: 0;
 		color: #DBD8D7;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+		margin: 0;
+	}
+}
+
+
+@media only screen and (max-width: 1100px) {
+	.headLine {
+		background-position-x: 120%;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.headLine {
+		background-position-x: 140%;
+		background-size: contain;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.headLine {
+		background-position-x: 180%;
+		background-size: contain;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.headLine {
+		background-position-x: 185px;
+		background-position-y: 235px;
+		background-size: contain;
 	}
 }
