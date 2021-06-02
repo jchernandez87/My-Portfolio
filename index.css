@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+    background-color: #3C3A39;
+}
+
+@media only screen and (max-width: 600px) {
+	.header {
+		height: 92px;
+		padding: 0 15px 0 18px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.hourInfo {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.hour {
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		font-size: 14px;
+		text-align: center;
+		width: 54px;
+		height: 16px;
+	}
+
+	.battery {
+		color: white;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		
+	}
+
+	.battery i {
+		margin-left: 5px;
+	}
+
+	.toolBar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+	}
+
+	.menu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 67.5px;
+	}
+
+	.btn {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+		border: none;
+	}
+}
