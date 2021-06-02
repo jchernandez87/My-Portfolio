@@ -1,2 +1,2 @@
 # My-Portfolio
-Creating my portfolio with microverse exercises.
+# In this project we are goin to create or potfolio through microverse exercises 🙂
