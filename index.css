@@ -411,17 +411,21 @@
   }
 
   .about {
-    height: 652px;
     padding: 0 24px;
     display: flex;
     flex-direction: column;
     background-color: #1c1a19;
-    border-bottom: 1px solid white;
-    margin-bottom: 136px;
+    background-image: url(assets/img/Frame.png);
+    background-repeat: no-repeat;
+    background-position-x: 215px;
+    background-position-y: 410px;
   }
 
   .about .aboutHead {
     margin-top: 120px;
+    margin-bottom: 130px;
+    height: 560px;
+    border-bottom: 1px solid #fff;
   }
 
   .aboutHead h1 {
@@ -455,6 +459,55 @@
     background-color: #ff6B00;
     padding: 12px;
     border: none;
+  }
+
+  .techList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list .title i {
+    color: #ff6b00;
+    padding-right: 14px;
+  }
+
+  .list .title .flip {
+    transform: rotate(-45deg);
+  }
+
+  .list .title h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    padding-right: 14px;
+  }
+
+  .list ul {
+    margin: 44px 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .list ul li {
+    margin-bottom: 32px;
   }
 }
 
