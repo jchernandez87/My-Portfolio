@@ -74,29 +74,29 @@
   color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 72px;
   letter-spacing: 0.37px;
-  line-height: 64px;
+  line-height: 81.5px;
   margin-bottom: 15px;
 }
 
 .title h2 {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
 }
 
 .title p {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
   margin-top: 15px;
   margin-bottom: 30px;
-  width: 50%;
+  width: 550px;
 }
 
 .iconLinks {
