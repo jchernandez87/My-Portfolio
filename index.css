@@ -27,6 +27,11 @@
   font-size: 20px;
 }
 
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav {
   width: 300px;
 }
@@ -75,7 +80,7 @@
   margin-bottom: 15px;
 }
 
-.title span {
+.title h2 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -103,6 +108,7 @@
   align-items: center;
   margin-left: 25px;
   margin-right: 60px;
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -207,7 +213,7 @@
     margin-bottom: 15px;
   }
 
-  .title span {
+  .title h2 {
     color: #fff5e1;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -236,6 +242,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 0;
+    list-style-type: none;
   }
 }
 
