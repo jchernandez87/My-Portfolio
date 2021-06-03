@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-	}
+  }
 
   .hourInfo {
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-	}
+  }
 
   .hour {
     color: white;
@@ -130,18 +130,18 @@
     text-align: center;
     width: 54px;
     height: 16px;
-	}
+  }
 
   .battery {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-	}
+  }
 
   .battery i {
     margin-left: 5px;
-	}
+  }
 
   .toolBar {
     display: flex;
@@ -149,32 +149,32 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-	}
+  }
 
   .logo {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
-	}
+  }
 
   .menu {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 67.5px;
-	}
+  }
 
   .btn {
     color: white;
     background-color: transparent;
     text-decoration: none;
     border: none;
-	}
+  }
 
   .nav {
     display: none;
-	}
+  }
 
   .headLine {
     display: flex;
@@ -187,7 +187,7 @@
     background-position-x: 185px;
     background-position-y: 235px;
     background-size: contain;
-	}
+  }
 
   .title {
     display: flex;
@@ -195,7 +195,7 @@
     width: 100%;
     justify-content: center;
     align-items: flex-start;
-	}
+  }
 
   .title h1 {
     color: #ff6b00;
@@ -205,7 +205,7 @@
     letter-spacing: 0.37px;
     line-height: 64px;
     margin-bottom: 15px;
-	}
+  }
 
   .title span {
     color: #fff5e1;
@@ -213,7 +213,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-	}
+  }
 
   .title p {
     color: #fff;
@@ -225,7 +225,7 @@
     margin-bottom: 35px;
     padding-right: 10px;
     width: 100%;
-	}
+  }
 
   .iconLinks {
     width: 60%;
@@ -236,27 +236,27 @@
     justify-content: space-around;
     align-items: center;
     margin: 0;
-	}
+  }
 }
 
 @media only screen and (max-width: 1100px) {
   .headLine {
     background-position-x: 120%;
-	}
+  }
 }
 
 @media only screen and (max-width: 990px) {
   .headLine {
     background-position-x: 140%;
     background-size: contain;
-	}
+  }
 }
 
 @media only screen and (max-width: 860px) {
   .headLine {
     background-position-x: 180%;
     background-size: contain;
-	}
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -264,5 +264,5 @@
     background-position-x: 185px;
     background-position-y: 235px;
     background-size: contain;
-	}
+  }
 }
