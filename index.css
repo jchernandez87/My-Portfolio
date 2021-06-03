@@ -4,16 +4,16 @@
 }
 
 .header {
-    background-color: #3C3A39;
-		height: 72px;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+  background-color: #3c3a39;
+	height: 72px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .toolBar {
-	display: flex;
+ display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -65,9 +65,8 @@
 	background-size: contain;
 }
 
-
 .title h1 {
-	color: #FF6B00;
+  color: #FF6B00;
 	font-family: 'Crete Round', serif;
 	font-weight: 400;
 	font-size: 56px;
@@ -77,7 +76,7 @@
 }
 
 .title span {
-	color: #FFF5E1;
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
@@ -85,7 +84,7 @@
 }
 
 .title p {
-	color: #FFFFFF;
+	color: #FFF;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -97,7 +96,7 @@
 
 .iconLinks {
 	height: 35%;
-	color: #DBD8D7;
+	color: #dbd8d7;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -183,7 +182,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		height: 590px;
-		background-color: #1C1A19;
+		background-color: #1c1a19;
 		padding: 0 25px 15px 25px;
 		background-position-x: 185px;
 		background-position-y: 235px;
@@ -199,7 +198,7 @@
 	}
 
 	.title h1 {
-		color: #FF6B00;
+		color: #ff6b00;
 		font-family: 'Crete Round', serif;
 		font-weight: 400;
 		font-size: 56px;
@@ -209,7 +208,7 @@
 	}
 
 	.title span {
-		color: #FFF5E1;
+		color: #fff5e1;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 700;
 		font-size: 24px;
@@ -217,7 +216,7 @@
 	}
 
 	.title p {
-		color: #FFFFFF;
+		color: #FFF;
 		font-family: 'Poppins', sans-serif;
 		font-weight: 400;
 		font-size: 16px;
@@ -231,7 +230,7 @@
 	.iconLinks {
 		width: 60%;
 		height: 0;
-		color: #DBD8D7;
+		color: #dbd8d7;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
@@ -239,7 +238,6 @@
 		margin: 0;
 	}
 }
-
 
 @media only screen and (max-width: 1100px) {
 	.headLine {
