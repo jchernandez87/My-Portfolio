@@ -258,10 +258,6 @@
     display: block;
   }
 
-  .about {
-    display: block;
-  }
-
   .worksTitle {
     color: #1c1a19;
     font-family: 'Crete Round', serif;
@@ -424,6 +420,7 @@
   }
 
   .about {
+    display: block;
     padding: 0 24px;
     display: flex;
     flex-direction: column;
