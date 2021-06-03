@@ -111,6 +111,14 @@
   list-style-type: none;
 }
 
+.works {
+  display: none;
+}
+
+.about {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .header {
     height: 92px;
@@ -247,6 +255,11 @@
 
   .works {
     padding: 0 24px 0 24px;
+    display: block;
+  }
+
+  .about {
+    display: block;
   }
 
   .worksTitle {
@@ -405,7 +418,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    background-color: #ff6B00;
+    background-color: #ff6b00;
     padding: 12px;
     border: none;
   }
