@@ -1,6 +1,8 @@
 # My Portfolio
 
-My personal portfolio it's going to feature all projects.
+-This is the repo for my (Portfolio: setup and mobile version skeleton) microverse exercise.
+
+-My personal portfolio it's going to feature all my projects.
 For now this is just and i.e text. 
 
 ## Built With
