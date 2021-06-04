@@ -329,6 +329,7 @@
 
   .projectBtn {
     margin-bottom: 24px;
+    height: 48px;
   }
 
   .projectBtn button {
@@ -339,6 +340,26 @@
     line-height: 24px;
     background-color: #ff6b00;
     padding: 12px;
+    border: none;
+  }
+
+  .projectBtn button:hover {
+    color: #ff6b00;
+    background-color: #fff5e1;
+    border: 1px solid #ff6b00;
+    transition: 0.4s;
+  }
+
+  .projectBtn button:focus {
+    color: #f4f1f0;
+    background-color: #e05304;
+    transition: 0.4s;
+    border: none;
+  }
+
+  .projectBtn button:disabled {
+    color: #5B5957;
+    background-color: #f4f1f0;
     border: none;
   }
 
@@ -411,6 +432,7 @@
   }
 
   .bottomBtn button {
+    width: 100%;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -421,6 +443,26 @@
     border: none;
   }
 
+  .bottomBtn button:hover {
+    color: #ff6b00;
+    background-color: #fff5e1;
+    border: 1px solid #ff6b00;
+    transition: 0.4s;
+  }
+
+  .bottomBtn button:focus {
+    color: #f4f1f0;
+    background-color: #e05304;
+    transition: 0.4s;
+    border: none;
+  }
+
+  .bottomBtn button:disabled {
+    color: #5B5957;
+    background-color: #f4f1f0;
+    border: none;
+  }
+
   .about {
     padding: 0 24px;
     display: flex;
@@ -428,7 +470,7 @@
     background-color: #1c1a19;
     background-image: url(assets/img/Frame.png);
     background-repeat: no-repeat;
-    background-position-x: 215px;
+    background-position-x: right;
     background-position-y: 410px;
   }
 
@@ -472,12 +514,33 @@
     border: none;
   }
 
+  .aboutHead button:hover {
+    color: #ff6b00;
+    background-color: #fff5e1;
+    border: 1px solid #ff6b00;
+    transition: 0.4s;
+  }
+
+  .aboutHead button:focus {
+    color: #f4f1f0;
+    background-color: #e05304;
+    transition: 0.4s;
+    border: none;
+  }
+
+  .aboutHead button:disabled {
+    color: #5B5957;
+    background-color: #f4f1f0;
+    border: none;
+  }
+
   .techList {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    margin-bottom: 130px;
   }
 
   .list {
@@ -490,7 +553,7 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    margin-bottom: 22px;
+    margin-top: 12px;
   }
 
   .list .title i {
@@ -512,7 +575,6 @@
   }
 
   .list ul {
-    margin: 0 0 44px 0;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -524,7 +586,11 @@
     font-size: 22px;
   }
 
-  .list ul li {
+  .list .techs {
+    margin-top: 44px;
+  }
+
+  .list .techs li {
     margin-bottom: 32px;
   }
 }
