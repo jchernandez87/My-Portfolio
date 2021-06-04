@@ -431,7 +431,7 @@
     width: 100%;
   }
 
-  .bottomBtn button {
+  .bottomBtn .cardButton {
     width: 100%;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -443,21 +443,21 @@
     border: none;
   }
 
-  .bottomBtn button:hover {
+  .bottomBtn .cardButton:hover {
     color: #ff6b00;
     background-color: #fff5e1;
     border: 1px solid #ff6b00;
     transition: 0.4s;
   }
 
-  .bottomBtn button:focus {
+  .bottomBtn .cardButton:focus {
     color: #f4f1f0;
     background-color: #e05304;
     transition: 0.4s;
     border: none;
   }
 
-  .bottomBtn button:disabled{
+  .bottomBtn .cardButton:disabled {
     color: #5b5957;
     background-color: #f4f1f0;
     border: none;
@@ -503,7 +503,7 @@
     width: 100%;
   }
 
-  .aboutHead button {
+  .aboutHead .getButton {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -514,21 +514,21 @@
     border: none;
   }
 
-  .aboutHead Button:hover {
+  .aboutHead .getButton:hover {
     color: #ff6b00;
     background-color: #fff5e1;
     border: 1px solid #ff6b00;
     transition: 0.4s;
   }
 
-  .aboutHead button:focus {
+  .aboutHead .getButton:focus {
     color: #f4f1f0;
     background-color: #e05304;
     transition: 0.4s;
     border: none;
   }
 
-  .aboutHead button:disabled {
+  .aboutHead .getButton:disabled {
     color: #5b5957;
     background-color: #f4f1f0;
     border: none;
