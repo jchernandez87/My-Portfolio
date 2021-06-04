@@ -362,6 +362,7 @@
 
   .card .info {
     padding: 0 24px;
+    list-style-type: none;
   }
 
   .info h3 {
@@ -391,9 +392,10 @@
     font-size: 15px;
     line-height: 20px;
     color: white;
+    list-style-type: none;
   }
 
-  .cardTagGroup div {
+  .cardTagGroup li {
     margin-right: 12px;
     padding: 10px 12px;
     background: rgba(255, 255, 255, 0.24);
