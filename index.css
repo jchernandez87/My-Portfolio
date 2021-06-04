@@ -259,6 +259,13 @@
   }
 
   .worksTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 107px 0 0 0;
+  }
+
+  .worksTitle h2 {
     color: #1c1a19;
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -266,13 +273,6 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 107px 0 0 0;
-  }
-
-  .worksTitle span {
     border-bottom: 1px solid #212121;
     padding-bottom: 50px;
     text-align: center;
