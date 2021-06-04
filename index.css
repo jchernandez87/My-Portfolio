@@ -358,7 +358,7 @@
   }
 
   .projectBtn button:disabled {
-    color: #5B5957;
+    color: #5b5957;
     background-color: #f4f1f0;
     border: none;
   }
@@ -457,8 +457,8 @@
     border: none;
   }
 
-  .bottomBtn button:disabled {
-    color: #5B5957;
+  .bottomBtn button:disabled{
+    color: #5b5957;
     background-color: #f4f1f0;
     border: none;
   }
@@ -514,7 +514,7 @@
     border: none;
   }
 
-  .aboutHead button:hover {
+  .aboutHead Button:hover {
     color: #ff6b00;
     background-color: #fff5e1;
     border: 1px solid #ff6b00;
@@ -529,7 +529,7 @@
   }
 
   .aboutHead button:disabled {
-    color: #5B5957;
+    color: #5b5957;
     background-color: #f4f1f0;
     border: none;
   }
