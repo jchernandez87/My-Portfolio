@@ -5,7 +5,7 @@
 -My personal portfolio it's going to feature all my projects.
 For now this is just and i.e text. 
 
-![Template Preview](assets/img/readPreview.jpg)
+![Template Preview](assets/readPreview.jpg)
 
 ## Built With
 
