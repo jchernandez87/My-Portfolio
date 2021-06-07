@@ -312,9 +312,7 @@
 
   .tagGroup {
     margin: 12px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: inline-block;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -323,6 +321,8 @@
   }
 
   .tagGroup div {
+    float: left;
+    margin-right: 12px;
     padding: 10px 12px;
     border: 1px solid #8993a4;
   }
