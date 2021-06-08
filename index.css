@@ -593,6 +593,12 @@
   .list .techs li {
     margin-bottom: 32px;
   }
+
+  .contactForm {
+    height: 844px;
+    border: 1px solid red;
+    padding: 120px 24px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
