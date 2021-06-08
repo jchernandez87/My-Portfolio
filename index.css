@@ -597,13 +597,13 @@
   .contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 844px;
     padding: 120px 24px;
   }
 
-  .contactTitle {
+  .contactTitle h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 32px;
