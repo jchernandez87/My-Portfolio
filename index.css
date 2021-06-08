@@ -594,10 +594,116 @@
     margin-bottom: 32px;
   }
 
-  .contactForm {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 844px;
-    border: 1px solid red;
     padding: 120px 24px;
+  }
+
+  .contactTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    text-align: center;
+    margin-bottom: 58px;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 330px;
+    width: 100%;
+  }
+
+  .contactForm ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .contactForm .smallInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    height: 48px;
+    width: 327px;
+    border-bottom: 1px solid #dBd8d7;
+  }
+
+  .smallInput input {
+    height: 18px;
+    width: 295px;
+    border: none;
+  }
+
+  .smallInput input::placeholder { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;;
+    opacity: 0.8;
+  }
+
+  .textAreaInput textArea {
+    width: 302px;
+    background-color: #fbf8f7;
+    height: 90px;
+    padding: 12px;
+    border: none;
+    margin-bottom: 24px;
+  }
+
+  .textAreaInput textArea::placeholder { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
+    opacity: 1;
+  }
+
+  .contactForm .contactBtn {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background-color: #ff6b00;
+    padding: 12px;
+    border: none;
+  }
+
+  .contactForm .contactBtn:hover {
+    color: #ff6b00;
+    background-color: #fff5e1;
+    border: 1px solid #ff6b00;
+    transition: 0.4s;
+  }
+
+  .contactForm .contactBtn:focus {
+    color: #f4f1f0;
+    background-color: #e05304;
+    transition: 0.4s;
+    border: none;
+  }
+
+  .contactForm .contactBtn:disabled {
+    color: #5b5957;
+    background-color: #f4f1f0;
+    border: none;
   }
 }
 
