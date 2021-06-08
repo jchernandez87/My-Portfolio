@@ -599,8 +599,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 844px;
-    padding: 120px 24px;
+    height: 834px;
+    padding: 120px 24px 0 24px;
   }
 
   .contactTitle h3 {
