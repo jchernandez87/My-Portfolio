@@ -705,7 +705,40 @@
     background-color: #f4f1f0;
     border: none;
   }
+
+  .footerIconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    border-top: 1px solid #dfe1e6;
+    margin-bottom: 8px;
+  }
+  
+  .footerIcons {
+    color: #505f79;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 15px 0 13px 0;
+    height: 40px;
+    width: 200px;
+  }
+
+  .footerIconsContainer:after {
+    content: "";
+    position: relative;
+    background-color: #0d151e;
+    height: 5px;
+    border-radius: 10px;
+    width: 134px;
+  }
 }
+
+
 
 @media only screen and (max-width: 1100px) {
   .headLine {
