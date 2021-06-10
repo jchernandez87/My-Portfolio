@@ -777,7 +777,6 @@
     padding: 0;
     width: 100%;
     display: flex;
-    font-size: column;
     justify-content: center;
     align-items: center;
   }
@@ -793,7 +792,6 @@
   }
 
   .worksTitle h2 {
-    text-align: center;
     padding-bottom: 0;
     border-bottom: none;
     width: 30%;
@@ -879,7 +877,6 @@
     justify-content: flex-end;
     align-items: flex-start;
     outline: 1px solid #262626;
-    outline-offset: 0px;
   }
 
   .card-b {
@@ -970,9 +967,6 @@
 
   .aboutLine {
     display: block;
-  }
-
-  .aboutLine {
     height: 1px;
     background-color: white;
     width: 80%;
@@ -1019,7 +1013,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .contact {
     width: 80%;
     display: flex;
