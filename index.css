@@ -126,7 +126,7 @@
   line-height: 26px;
   margin-top: 15px;
   margin-bottom: 35px;
-  width: 327px;
+  width: 90vw;
 }
 
 .iconLinks {
@@ -155,7 +155,8 @@
   align-items: center;
   justify-content: center;
   margin: 107px 0 0 0;
-  width: 327px;
+  width: 85vw;
+  border-bottom: 1px solid #212121;
 }
 
 .worksTitle h2 {
@@ -164,10 +165,12 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  border-bottom: 1px solid #212121;
   padding-bottom: 50px;
   text-align: center;
-  width: 327px;
+}
+
+.worksHeadline {
+  width: 85vw;
 }
 
 .worksTopImage {
@@ -175,8 +178,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-  height: 237px;
   width: 327px;
+  height: 237px;
   background-image: url(assets/img/workdsTop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,6 +187,7 @@
 }
 
 .worksHeadInfo {
+  width: 85vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,7 +209,6 @@
   font-weight: 400;
   line-height: 24px;
   color: #091e42;
-  width: 327px;
 }
 
 .tagGroup {
@@ -273,7 +276,7 @@
   grid-template: repeat(6, 1fr) / 1fr;
   row-gap: 24px;
   margin-bottom: 120px;
-  width: 327px;
+  width: 85vw;
 }
 
 .card {
@@ -281,10 +284,12 @@
   background-image: url(assets/img/cardBack.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  width: 100%;
 }
 
 .info {
@@ -373,6 +378,8 @@
   padding: 0 24px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #1c1a19;
   background-image: url(assets/img/Frame.png);
   background-repeat: no-repeat;
@@ -381,6 +388,7 @@
 }
 
 .aboutHead {
+  width: 85vw;
   margin-top: 120px;
   margin-bottom: 130px;
   height: 560px;
@@ -405,8 +413,6 @@
   line-height: 26px;
   margin-top: 15px;
   margin-bottom: 35px;
-  padding-right: 10px;
-  width: 100%;
 }
 
 .aboutHead .getButton {
@@ -451,6 +457,7 @@
   justify-content: center;
   list-style-type: none;
   margin-bottom: 130px;
+  width: 85vw;
 }
 
 .list {
@@ -504,6 +511,12 @@
   margin-bottom: 32px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -511,10 +524,11 @@
   align-items: center;
   height: 834px;
   padding: 120px 24px 0 24px;
+  width: 85vw;
 }
 
 .titleBox {
-  width: 327px;
+  width: 85vw;
 }
 
 .titleBox .contactTitle {
@@ -533,7 +547,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 330px;
-  width: 100%;
+  width: 85vw;
 }
 
 .contactForm ul {
@@ -552,13 +566,13 @@
   align-items: center;
   margin-bottom: 24px;
   height: 48px;
-  width: 327px;
+  width: 100%;
   border-bottom: 1px solid #dbd8d7;
 }
 
 .smallInput input {
   height: 18px;
-  width: 295px;
+  width: 90%;
   border: none;
 }
 
@@ -571,17 +585,24 @@
   opacity: 0.8;
 }
 
+.textAreaInput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .textAreaInput textarea {
-  width: 302px;
+  width: 100%;
   background-color: #fbf8f7;
   height: 90px;
-  padding: 12px;
   border: none;
   margin-bottom: 24px;
 }
 
 .textAreaInput textarea::placeholder {
   font-family: "Inter", sans-serif;
+  padding: 12px;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -621,6 +642,7 @@
 }
 
 .footerIconsContainer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -651,7 +673,7 @@
   width: 134px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
   .header {
     background-color: #3c3a39;
     height: 72px;
