@@ -117,7 +117,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  
 }
 
 .title .mobileTitleP {
@@ -680,7 +679,6 @@
 }
 
 @media only screen and (min-width: 667px) {
-
   .headLine {
     display: flex;
     align-items: center;
@@ -689,7 +687,7 @@
   .mainContainer {
     width: 85vw;
   }
-  
+
   .containerMobile {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -818,6 +816,10 @@
     line-height: 44px;
   }
 
+  .deskTitleP {
+    display: block;
+  }
+
   .title .deskTitleP {
     color: #fff;
     font-family: "Inter", sans-serif;
@@ -828,10 +830,6 @@
     margin-right: 50px;
   }
 
-  .deskTitleP {
-    display: block;
-  }
-  
   .mobileTitleP {
     display: none;
   }
