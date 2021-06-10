@@ -1006,7 +1006,13 @@
     height: 435px;
     width: 100%;
     padding: 0;
-    background-image: url(assets/img/bCardBack.png);
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.2) 35%,
+        hsl(0 0% 0% / 1)
+      ),
+      url(assets/img/cardB.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1014,6 +1020,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+  }
+
+  .card-b:hover {
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0),
+        hsl(0 0% 0% / 0)
+      ),
+      url(assets/img/cardB.png);
   }
 
   .card-b:hover .info {
@@ -1032,7 +1048,13 @@
     height: 435px;
     width: 100%;
     padding: 0;
-    background-image: url(assets/img/cCardBack.png);
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.2) 35%,
+        hsl(0 0% 0% / 1)
+      ),
+      url(assets/img/cardC.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1040,6 +1062,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+  }
+
+  .card-c:hover {
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0),
+        hsl(0 0% 0% / 0)
+      ),
+      url(assets/img/cardC.png);
   }
 
   .card-c:hover .info {
@@ -1058,7 +1090,13 @@
     height: 435px;
     width: 100%;
     padding: 0;
-    background-image: url(assets/img/cardBack.png);
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.2) 35%,
+        hsl(0 0% 0% / 1)
+      ),
+      url(assets/img/aCardBack.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1066,6 +1104,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+  }
+
+  .card-d:hover {
+    background-image:
+      linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0),
+        hsl(0 0% 0% / 0)
+      ),
+      url(assets/img/aCardBack.png);
   }
 
   .card-d:hover .info {
