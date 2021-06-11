@@ -700,6 +700,10 @@
     width: 60vw;
   }
 
+  .tagGroup {
+    width: 40%;
+  }
+
   .worksTopImage {
     display: flex;
     justify-content: center;
