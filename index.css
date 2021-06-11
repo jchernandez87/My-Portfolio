@@ -971,7 +971,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/aCardBack.png);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 
   .card-a:hover .info {
@@ -1034,7 +1034,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/cardB.png);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 
   .card-b:hover .info {
@@ -1077,7 +1077,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/cardC.png);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 
   .card-c:hover .info {
@@ -1120,7 +1120,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/aCardBack.png);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 
   .card-d:hover .info {
