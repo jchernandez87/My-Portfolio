@@ -744,6 +744,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
+    transition: transform 2s;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
   }
 
   .logo a {
@@ -971,6 +976,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/aCardBack.png);
+    transform: scale(1.05, 1.05);
   }
 
   .card-a:hover .info {
@@ -1033,6 +1039,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/cardB.png);
+    transform: scale(1.05, 1.05);
   }
 
   .card-b:hover .info {
@@ -1075,6 +1082,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/cardC.png);
+    transform: scale(1.05, 1.05);
   }
 
   .card-c:hover .info {
@@ -1117,6 +1125,7 @@
         hsl(0 0% 0% / 0)
       ),
       url(assets/img/aCardBack.png);
+    transform: scale(1.05, 1.05);
   }
 
   .card-d:hover .info {
