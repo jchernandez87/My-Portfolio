@@ -21,7 +21,7 @@
     <a href="https://github.com/jchernandez87/My-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jchernandez87.github.io/My-Portfolio/">View Demo</a>
+    <a href="https://jchernandez87.github.io/My-Portfolio/">View Deploy</a>
     ·
     <a href="https://github.com/jchernandez87/My-Portfolio/issues">Report Bug</a>
     ·
