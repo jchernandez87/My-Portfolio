@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+*::selection {
+  background-color: cyan;
+}
+
 .header {
   background-color: #3c3a39;
   height: 92px;
