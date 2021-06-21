@@ -85,6 +85,7 @@
 
 .close-container {
   display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
   width: 90%;
 }
@@ -97,7 +98,7 @@
   outline: none;
 }
 
-.menu-display ul {
+.mobile-list {
   margin-top: 34px;
   display: flex;
   flex-direction: column;
@@ -112,7 +113,7 @@
   width: 90%;
 }
 
-.menu-display ul li {
+.mobile-listul li {
   padding-left: 15px;
   padding-bottom: 5px;
   margin-bottom: 24px;
