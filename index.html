@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Carlos My-Portfolio</title>
+    <title>Juan Carlo's Portfolio</title>
 	<link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -45,10 +45,22 @@
 					</ul>
 				</nav>
 				<nav class="menu">
-					<button class="btn" type="button">
+					<button class="btn" type="button" onclick="openMenu()">
 						<i class="fas fa-bars fa-2x"></i>
 					</button>
 				</nav>
+				<menu class="menu-display" id="menu-mobile">
+					<div class="close-container">
+						<button class="close-btn" onclick="closeMenu()">
+							<i class="fas fa-times fa-lg"></i>
+						</button>
+					</div>
+					<ul>
+						<li>Potfolio</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+				</menu>
 			</div>
 		</header>
 		<section class="headLine">
@@ -361,5 +373,7 @@
 			</section>
 		</footer>
   </div>
-</body>   
+</body>
+<script src="index.js">
+</script>   
 </html>
