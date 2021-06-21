@@ -1,10 +1,10 @@
-let menu = document.querySelector('#menu-dropdown');
+const menu = document.querySelector('#menu-dropdown');
 
-function openMenu() {
+const opened = function openMenu() {
     menu.style.visibility = 'visible';
 }
 
-function closeMenu() {
+const closed = function closeMenu() {
     menu.style.visibility = 'hidden';
 }
 
