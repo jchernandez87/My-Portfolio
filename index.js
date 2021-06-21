@@ -1,4 +1,4 @@
-let menu = document.querySelector('#menu-mobile');
+let menu = document.querySelector('#menu-dropdown');
 
 function openMenu() {
     menu.style.visibility = 'visible';
