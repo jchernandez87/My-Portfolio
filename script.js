@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const menu = document.querySelector('#menu-dropdown');
 const btn = document.querySelector('.btn');
 const btnClose = document.querySelector('.close-btn');

@@ -76,6 +76,7 @@ So far i learned how to:
 
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
+* [JS](https://www.javascript.com/)
 
 
 <!-- GETTING STARTED -->
