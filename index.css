@@ -12,35 +12,6 @@
   justify-content: space-around;
 }
 
-.hourInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.hour {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  text-align: center;
-  width: 54px;
-  height: 16px;
-}
-
-.battery {
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.battery i {
-  margin-left: 5px;
-}
-
 .toolBar {
   display: flex;
   flex-direction: row;
@@ -74,8 +45,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  position: absolute;
-  top: 50px;
+  position: fixed;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -84,6 +55,7 @@
 }
 
 .close-container {
+  margin-top: 34px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -113,7 +85,7 @@
   width: 90%;
 }
 
-.mobile-listul li {
+.mobile-list li {
   padding-left: 15px;
   padding-bottom: 5px;
   margin-bottom: 24px;
