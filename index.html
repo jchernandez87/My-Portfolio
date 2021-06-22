@@ -20,7 +20,39 @@
 	</script>
 </head>
 <body>
-  <div class="main-container">
+	<div id="overlay"></div>
+	<div class="modal-mobile" id="modal-small">
+		<div class="modalm-title">
+			<h2>Multi Post Stories</h2>
+			<i id="close-modal-btn" class="fas fa-times fa-lg"></i>
+		</div>
+		<ul class="modal-tags">
+			<li>html</li>
+			<li>Bootstrap</li>
+			<li>Ruby on rails</li>
+		</ul>
+		<div class="card-contain">
+			<div class="modalm-img">
+			</div>
+			<div class="text-btn">
+				<p class="modal-text-mobile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+				<p class="modal-text-desk">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+				</p>
+				<div class="modal-buttons">
+					<button class="modal-btn" type="button">
+						See Live
+						<i class="fas fa-arrow-circle-up fa-lg"></i>
+					</button>
+					<button class="modal-btn" type="button">
+						See Source
+						<i class="fab fa-github fa-lg"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="main-container">
 		<header class="header">
 			<div class="toolBar">
 				<div class="logo">
@@ -28,9 +60,9 @@
 				</div>
 				<nav class="nav">
 					<ul>
-						<li>Portfolio</li>
-						<li>About</li>
-						<li>Contact</li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
 						<li><i class="far fa-envelope fa-lg"></i></li>
 					</ul>
 				</nav>
@@ -41,14 +73,14 @@
 				</nav>
 				<nav class="menu-display" id="menu-dropdown">
 					<div class="close-container">
-						<button class="close-btn" type="button">
+						<button class="close-btn" type="button"> 
 							<i class="fas fa-times fa-lg"></i>
 						</button>
 					</div>
 					<ul class="mobile-list">
-						<li class="btn-link">Potfolio</li>
-						<li class="btn-link2">About</li>
-						<li class="btn-link3">Contact</li>
+						<li class="btn-link"><a href="#portfolio">Portfolio</a></li>
+						<li class="btn-link2"><a href="#about">About</a></li>
+						<li class="btn-link3"><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -71,6 +103,7 @@
 			</div>
 		</section>
 		<section class="works">
+			<a name="portfolio"></a>
 			<div class="worksTitle">
 				<h2>My Recent Works</h2>
 			</div>
@@ -278,6 +311,7 @@
 			</ul>
 		</section>
 		<section class="about">
+			<a name="about"></a>
 			<div class="aboutHead">
 				<h1>About Me</h1>
 				<p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -329,6 +363,7 @@
 		</section>
 		<footer class="footer">
 			<section class="contact">
+				<a name="contact"></a>
 				<div class="titleBox">
 					<h3 class="contactTitle">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
 				</div>

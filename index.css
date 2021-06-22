@@ -77,11 +77,6 @@
   align-content: center;
   justify-content: center;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: #fff5e1;
-  font-size: 32px;
-  line-height: 44px;
   width: 90%;
 }
 
@@ -90,6 +85,15 @@
   padding-bottom: 5px;
   margin-bottom: 24px;
   border-bottom: 1px solid #6f6c6b;
+}
+
+.mobile-list a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #fff5e1;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 .btn {
@@ -305,6 +309,152 @@
   row-gap: 24px;
   margin-bottom: 120px;
   width: 85vw;
+}
+
+.main-container {
+  filter: blur(0);
+}
+
+.main-container.active {
+  filter: blur(5px);
+}
+
+.modal-mobile {
+  max-height: calc(100vh - 20px);
+  transform: scale(0);
+  transition: 200ms ease-in-out;
+  overflow-y: auto;
+  top: 12px;
+  bottom: 12px;
+  left: 14px;
+  right: 14px;
+  background-color: #ffff;
+  position: fixed;
+  z-index: 999;
+  padding: 16px;
+}
+
+.modal-mobile.active {
+  transform: scale(1);
+}
+
+.modalm-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 82px;
+  margin-bottom: 5px;
+}
+
+.modalm-title h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.modalm-title i {
+  color: #67798e;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.modal-tags {
+  width: 85%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.modal-tags li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3c3a39;
+  padding: 10px 12px;
+  border: 1px solid #979493;
+}
+
+.modalm-img {
+  height: 220px;
+  background-image: url(assets/img/modalImgMobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+.modal-text-mobile {
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.modal-text-desk {
+  display: none;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-btn {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+}
+
+.modal-btn:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  transition: 0.4s;
+}
+
+.modal-btn:focus {
+  color: #f4f1f0;
+  background-color: #e05304;
+  border: none;
+}
+
+.modal-btn:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+  border: none;
+}
+
+.modal-btn i {
+  margin-left: 12px;
+}
+
+#overlay {
+  position: fixed;
+  transition: 200ms ease-in-out;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }
 
 .card {
@@ -728,6 +878,27 @@
     width: 40%;
   }
 
+  .modal-mobile {
+    margin: 0 auto;
+    width: 80vw;
+    padding: 24px;
+  }
+
+  .modal-tags {
+    width: 280px;
+  }
+
+  .modal-buttons {
+    width: 320px;
+  }
+
+  .modalm-img {
+    height: 448px;
+    background-image: url(assets/img/modalImgDesk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .worksTopImage {
     display: flex;
     justify-content: center;
@@ -787,14 +958,19 @@
 
   .nav ul {
     color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+  }
+
+  .nav ul a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
   }
 
   .hourInfo {
@@ -961,6 +1137,67 @@
 
   .containerMobile {
     display: none;
+  }
+
+  .modal-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    padding: 24px;
+    top: 15%;
+    margin: 0 auto;
+    width: 80vw;
+    height: 631px;
+  }
+
+  .modalm-title {
+    height: auto;
+  }
+
+  .modal-tags {
+    width: 288px;
+    margin-bottom: 50px;
+  }
+
+  .card-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .modalm-img {
+    width: 60%;
+    margin-bottom: 0;
+    height: 448px;
+    background-image: url(assets/img/modalImgDesk.png);
+    background-size: cover;
+  }
+
+  .text-btn {
+    height: 448px;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .modal-text-desk {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #344563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+
+  .modal-text-mobile {
+    display: none;
+  }
+
+  .modal-buttons {
+    width: 298px;
   }
 
   .containerDesk {
@@ -1353,5 +1590,17 @@
 
   .footerIconsContainer::after {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1660px) {
+  .modal-mobile {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .modal-mobile {
+    width: 65vw;
   }
 }
