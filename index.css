@@ -1583,3 +1583,16 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 1660px) {
+  .modal-mobile {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .modal-mobile {
+    width: 65vw;
+  }
+}
+
