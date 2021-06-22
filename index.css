@@ -77,11 +77,6 @@
   align-content: center;
   justify-content: center;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: #fff5e1;
-  font-size: 32px;
-  line-height: 44px;
   width: 90%;
 }
 
@@ -90,6 +85,15 @@
   padding-bottom: 5px;
   margin-bottom: 24px;
   border-bottom: 1px solid #6f6c6b;
+}
+
+.mobile-list a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #fff5e1;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 .btn {
@@ -954,14 +958,19 @@
 
   .nav ul {
     color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+  }
+
+  .nav ul a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
   }
 
   .hourInfo {
@@ -1595,4 +1604,3 @@
     width: 65vw;
   }
 }
-
