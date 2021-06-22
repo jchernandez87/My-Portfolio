@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+const main = document.querySelector('.main-container');
 const menu = document.querySelector('#menu-dropdown');
 const modal = document.querySelector('#modal-small');
 const overlay = document.querySelector('#overlay');
@@ -27,11 +28,13 @@ link3.addEventListener('click', closeMenu);
 function openModal() {
   modal.classList.add('active');
   overlay.classList.add('active');
+  main.classList.add('active');
 }
 
 function closeModal() {
   modal.classList.remove('active');
   overlay.classList.remove('active');
+  main.classList.remove('active');
 }
 
 modalOpenBtn.addEventListener('click', openModal);
