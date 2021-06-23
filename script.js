@@ -39,3 +39,25 @@ function closeModal() {
 
 modalOpenBtn.addEventListener('click', openModal);
 modalCloseBtn.addEventListener('click', closeModal);
+
+const form = document.querySelector('.contactForm');
+const email = form.elements.user_email;
+const emailError = document.querySelector('.error');
+const contactBtn = document.querySelector('.contactBtn');
+
+email.addEventListener('input', () => {
+  if (!email.validity.patternMismatch) {
+    emailError.textContent = '';
+    emailError.classList.remove('active');
+  }
+});
+
+contactBtn.addEventListener('click', (event) => {
+  if (email.validity.patternMismatch) {
+    emailError.classList.add('active');
+    emailError.textContent = 'Email Address should use lowercase only.';
+    event.preventDefault();
+  } else {
+    emailError.textContent = '';
+  }
+});

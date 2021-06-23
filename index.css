@@ -763,6 +763,14 @@
   opacity: 0.8;
 }
 
+/* input:valid {
+  border: 2px solid black;
+}
+
+input:invalid {
+  border: 2px solid red;
+} */
+
 .messAreaInput {
   width: 100%;
   display: flex;
@@ -786,6 +794,22 @@
   line-height: 24px;
   color: #3c3a39;
   opacity: 1;
+}
+
+.error {
+  transform: scale(0);
+}
+
+.error.active {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+  margin-left: 0;
+  font-family: "Inter", sans-serif;
+  padding: 12px 12px 12px 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 5px;
 }
 
 .contactForm .contactBtn {
