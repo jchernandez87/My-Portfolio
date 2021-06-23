@@ -788,6 +788,22 @@
   opacity: 1;
 }
 
+.error {
+  transform: scale(0);
+}
+
+.error.active {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+  margin-left: 0;
+  font-family: "Inter", sans-serif;
+  padding: 12px 12px 12px 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 5px;
+}
+
 .contactForm .contactBtn {
   color: white;
   font-family: "Inter", sans-serif;
