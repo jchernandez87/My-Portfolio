@@ -763,14 +763,6 @@
   opacity: 0.8;
 }
 
-/* input:valid {
-  border: 2px solid black;
-}
-
-input:invalid {
-  border: 2px solid red;
-} */
-
 .messAreaInput {
   width: 100%;
   display: flex;
