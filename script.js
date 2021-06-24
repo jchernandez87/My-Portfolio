@@ -1,4 +1,8 @@
 /* eslint-disable linebreak-style */
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+};
+
 const main = document.querySelector('.main-container');
 const menu = document.querySelector('#menu-dropdown');
 const modal = document.querySelector('#modal-small');
@@ -41,13 +45,43 @@ modalOpenBtn.addEventListener('click', openModal);
 modalCloseBtn.addEventListener('click', closeModal);
 
 const form = document.querySelector('.contactForm');
+const nameInput = form.elements.user_name;
 const email = form.elements.user_email;
+const textInput = form.elements.user_message;
 const emailError = document.querySelector('.error');
 const contactBtn = document.querySelector('.contactBtn');
 
+function saveLocal() {
+  const userName = document.querySelector('#name').value;
+  const emailAddress = document.querySelector('#mail').value;
+  const text = document.querySelector('#msg').value;
+
+  const data = {
+    name: userName,
+    userEmail: emailAddress,
+    userText: text,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+}
+
+function getData() {
+  const dataGet = localStorage.getItem('data');
+  if (dataGet) {
+    const dataParse = JSON.parse(dataGet);
+    nameInput.value = dataParse.name;
+    email.value = dataParse.userEmail;
+    textInput.value = dataParse.userText;
+  }
+}
+
+getData();
+
+form.addEventListener('input', () => {
+  saveLocal();
+});
+
 email.addEventListener('input', () => {
   if (!email.validity.patternMismatch) {
-    emailError.textContent = '';
     emailError.classList.remove('active');
   }
 });
