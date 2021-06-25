@@ -459,11 +459,11 @@
   width: 100%;
   height: 100%;
   background-image:
-  linear-gradient(
-    hsl(0 0% 0% / 0),
-    hsl(20 0% 0% / 0.2) 10%,
-    hsl(0 0% 0% / 1)
-  );
+    linear-gradient(
+      hsl(0 0% 0% / 0),
+      hsl(20 0% 0% / 0.2) 10%,
+      hsl(0 0% 0% / 1)
+    );
   position: absolute;
   top: 0;
   left: 0;
