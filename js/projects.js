@@ -20,7 +20,7 @@ const projectsArr = [
     tag2: 'bootstrap',
     tag3: 'Ruby',
     btnText: 'See Project',
-    imgUrl: '/assets/img/aCardBack.png',
+    imgUrl: '/assets/img/cardC.png',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -47,7 +47,7 @@ const projectsArr = [
     tag2: 'bootstrap',
     tag3: 'Ruby',
     btnText: 'See Project',
-    imgUrl: '/assets/img/aCardBack.png',
+    imgUrl: '/assets/img/cardB.png',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -56,7 +56,7 @@ const projectsArr = [
     tag2: 'bootstrap',
     tag3: 'Ruby',
     btnText: 'See Project',
-    imgUrl: '/assets/img/aCardBack.png',
+    imgUrl: '/assets/img/cardC.png',
   },
 ];
 

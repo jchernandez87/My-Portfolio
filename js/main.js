@@ -5,8 +5,6 @@ window.onbeforeunload = () => {
   window.scrollTo(0, 0);
 };
 
-cardGenerator(projectsArr);
-
 const main = document.querySelector('.main-container');
 const menu = document.querySelector('#menu-dropdown');
 const modal = document.querySelector('#modal-small');
@@ -53,6 +51,8 @@ function closeModal() {
 
 modalOpenBtn.addEventListener('click', openModal);
 modalCloseBtn.addEventListener('click', closeModal);
+
+cardGenerator(projectsArr);
 
 function saveLocal() {
   const userName = document.querySelector('#name').value;
